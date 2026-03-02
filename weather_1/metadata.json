@@ -1,0 +1,8 @@
+
+{
+  "description": "A weather application clone fetching live data from OpenWeatherMap API, with geolocation support and a nature video background, inspired by the HavaHavai design.",
+  "prompt": "build this app in bg any nature video scenes",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
