@@ -12,3 +12,4 @@ This contains everything you need to run your app locally.
 2. Set the `OPEN_WEATHER_API_KEY` in [.env](.env) to your OEPN WEATHER API key
 3. Run the app:
    `npm run dev`
+   .
