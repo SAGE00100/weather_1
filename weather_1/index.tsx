@@ -21,7 +21,9 @@ import {
 // Embedding API keys directly in client-side code is a major security risk.
 // This key will be visible to anyone inspecting your site's code.
 // For production, use environment variables and a backend proxy.
-const OPENWEATHER_API_KEY = process.env.OPEN_WEATHER_API_KEY;
+// const OPENWEATHER_API_KEY = process.env.OPEN_WEATHER_API_KEY;
+
+const OPENWEATHER_API_KEY = import.meta.env.VITE_OPEN_WEATHER_API_KEY;
 
 const App: React.FC = () => {
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
